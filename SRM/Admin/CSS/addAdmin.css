@@ -1,0 +1,49 @@
+body{margin: 0;}
+
+.bg{
+    background-image:url("../images/Background.jpg"); background-repeat: no-repeat; position: fixed;
+    height: 100%; width: 100%; background-size:cover; filter: blur(5px);-webkit-filter: blur(5px);    }
+
+.maindiv {position: absolute;top: 14.5%; right: 4.1%;height: 615px; width: 434px;
+    background-color: white;border-radius: 8px; opacity: 0.87;
+    box-shadow: 5px 5px 10px black; padding-left: 20px;}
+
+.headingparent{position: absolute; left: 4.5%; top: 20%; color: white; font-family: Calibri; width: 600px;}
+.heading {font-size: 180%;}
+.subheading {font-size: 120%; text-align: right; margin-top: -30px;}
+
+.mainheader{ font-family: Helvetica; border-bottom: 1px solid lightgrey; width: 95%;}
+
+.mainform{ margin-top: 20px;}
+
+.frm-textbox{ width: 92%; border: 1px solid #bdc7d8; border-radius: 5px; font-size: 18px; padding: 8px 10px; margin: 5px 8px; margin-left: 0;}
+.frm-textbox::placeholder{ color: #9898A8;}
+
+input[type="file"] { display: none;}
+.file1{ border: 1px solid darkgrey;
+    padding: 10px; background: grey; color: #fff;  border-radius: 5px; position: relative;
+    left: 20px; top:5px; font-family: Helvetica; font-weight: bold; font-size: 15px; box-shadow: 5px 5px 5px lightgrey;
+}
+.file1:hover{ background-color: rgba(128, 128, 128, 0.795);}
+
+.dp{
+    height: 100px;
+    width: 100px; border-radius: 50px;
+    border: 1px solid lightgrey; left: 35%; position: relative;
+}
+
+.subbut{ background: linear-gradient(#79bc64, #578843);
+    border: 1px solid darkgreen; box-shadow: 5px 5px 5px lightgrey; color: white; font-family: Helvetica;
+    font-size: 18px; height: 36px; width: 200px; border-radius: 5px; left: 100px; position: relative;
+}
+.subbut:hover{background: linear-gradient(#578843, #79bc64);}
+
+.spa{width: 120px; border: 1px solid #ccd0d5; border-radius: 5px; display: inline-block; position: relative; top:5px}
+.radl{ box-sizing: border-box; font-family: Helvetica; font-size: 15px;line-height: 38px; padding: 0 28px 0 10px; width: 100%;}
+.rad{ height: 36px; margin: 0; top: 0; right: 10px; position: absolute;}
+
+.ifadmin {font-family: helvetica; position: relative; top: 15px; font-size: small;}
+
+@media only screen and (max-width: 1150px){.headingparent{ width: fit-content; left: 3.5%}}
+@media only screen and (max-width: 1050px){.headingparent{ width: 400px; top:25%; left: 3.5%} .heading {font-size: 140%;} .subheading {font-size: 100%;} }
+@media only screen and (max-width: 930px){.headingparent{ width: 100%; left: 0px; position: relative; text-align: center; top: 30;}.maindiv{padding-top: 5px; position: relative; margin: auto auto auto auto; top: 50; right: 0;}.subheading {text-align: center; font-size: large;}}

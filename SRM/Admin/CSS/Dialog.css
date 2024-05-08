@@ -1,0 +1,30 @@
+
+.dialogbackground {
+ height: 100%; width: 100%; background-color: black; 
+ opacity: 0.5; background-size:cover;  position: fixed; 
+ visibility: hidden; left: 0; top: 0;
+}
+
+.dialogbox {
+ height:fit-content;width: 340px; background-color: #f0f0f0; 
+ border: 1px solid lightgrey; box-shadow: 5px 5px 10px black; 
+ border-radius: 5px; font-family:Calibri; visibility: hidden; left: 35%; 
+ top: 35%; position: fixed;
+}
+
+.dialogtitlebar {
+ height: 17px; width: 337px; background-color:darkgrey; 
+ border-bottom: 1px solid grey; border-radius: 5px 5px 0px 0px; 
+ color: white; font-size: small; padding-top: 3px; padding-left: 3px; 
+ font-weight: bold; font-family: Helvetica;
+}
+
+.dialogbtn {
+ font-family: Consolas; margin-bottom: 15px; 
+ background: linear-gradient(lightgreen, green); 
+ border: 2px solid black; 
+ height: 25px; width: 80px; border-radius: 5px; color: white; 
+ font-weight: bold;
+}
+
+.dialogbtn:active{ background:linear-gradient(green, lightgreen);}

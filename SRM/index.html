@@ -1,0 +1,46 @@
+<html id='jw'><head>
+<style>img{bordor:3px solid black;}#l22{color:white;font-size:50px;background-color:black;width:20%;}a{margin-top:-10px;text-decoration:none;font-size:60px;}.b1{cursor:pointer;border-radius:60px;height:40%;width:20%;top:240;margin-left:-15%;position:absolute;opacity:0.8; 
+ padding-left: 20px;}.b2{cursor:pointer;border-radius:60px;height:40%;width:20%;top:240;left:800;position:absolute;opacity:0.8; 
+ padding-left: 20px;}.b1:hover{transform:scale(1.10);}.b2:hover{transform:scale(1.10);}
+body{ margin: 0px; }
+#cover{ color: white; font-family: 'Segoe UI'; font-size: large; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; transition: opacity 4s; position: absolute; left: 0px; top: 0px; cursor: none;
+background: linear-gradient(-45deg, #EE7752, #00264C, #000000, #23D5AB); 
+background-size: 400% 400%; 
+animation: change 5s ease-in-out infinite;
+}
+@keyframes change {
+0% { background-position: 0 50%; }
+50% { background-position: 100% 50%; }
+100% { background-position: 0 50%; }
+} 
+#txt1 {transition: opacity 3s, font-size 8s; opacity: 0.0; font-size: 32px;}
+
+#big{max-height:auto;font:top;max-width:auto;margin-top:-50px;
+}#l22:hover{color:greenyellow;box-shadow:10px 10px 10px white;}#jw{background-color:grey;}.bby{font-size:50px;text-decoration:none;}bcb1:hover{transform:scale(1.5);box-shadow:1 1 0 white;}#bcb{height:20%;width:90%;background-color:darkgreen;margin-top:55px;border-radius:10px;}#bcb1{border-radius:10px;margin-top:100px;height:20%;width:90%;background-color:red;opacity:1;}.b1{border-radius:40px;height:40%;width:20%;top:240;left:600;position:absolute;border-radius:20px;border-radius: 8px;opacity:0.8; 
+ padding-left: 20px;}
+</style></head>
+</div>
+<body  id='big'><video clas='vdo' autoplay controls loop='loop' style='margin-left:-9px;height:150%;margin-top:-140px;position:fixed;'><source src='Images/s7.mp4'></video><div class='b1'><a href='Admin/loginAdmin.php'><img style='margin-left:-20px;border-radius:60px;border:3px solid white;box-shadow:15px 15px 15px  white;' src='fl.jpg' height='292' width='325'></a><label id='l22'style="border:1px solid white;">Admin Login</label></div><div class='b2'><a href='student/loginStudent.php'><img style='margin-left:-20px;border-radius:60px;border:3px solid white;box-shadow:15px 15px 15px white;' src='sun.jpg' height='292' width='325'></a><label id='l22'style="border:1px solid white;">Student Login</label></div>
+<div id="cover">
+<div id="txt1"></div>
+</div>
+</body>
+<script>
+function fade(x1, x2, x3) { document.getElementById(x3).innerHTML = x2;
+document.getElementById(x3).style.opacity = x1; 
+if(x1=="1.0") { document.getElementById("txt1").style.fontSize = "42px"; }
+else { document.getElementById("txt1").style.fontSize = "14px"; }
+}
+var c = 0; t = 4000; d = 1000
+setTimeout(fade,100, "1.0", "Hi", "txt1"); 
+c = c + t; setTimeout(fade,c, "0.0", "", "txt1"); c = c + d;
+setTimeout(fade,c, "1.0", "We proudly present you", "txt1"); 
+c = c + t; setTimeout(fade,c, "0.0", "", "txt1"); c = c + d;
+setTimeout(fade,c, "1.0", "Student Result Management System", "txt1"); 
+c = c + t; setTimeout(fade,c, "0.0", "", "txt1", "txt1"); c = c + d;
+setTimeout(fade,c, "0.0", "", "cover"); c = c + 2500;
+setTimeout(function sample(){document.getElementById("cover").style.visibility = "hidden";}, c);
+</script>
+
+</html>
+
