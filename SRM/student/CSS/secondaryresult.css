@@ -1,0 +1,91 @@
+/* .t1:hover { background-color:#febe00;} #adcf1a,cce00e,8bb1eb    */
+#div11{
+    background-color:white;
+    height:200px;                         /*  image div design */
+    width:100.5%;
+    margin-top:35px;
+   }
+.uul{list-style-type:none;line-gap:10px;}
+ /* #imgx {margin-left:-30px;margin-right:30px;margin-top:-300px;margin-bottom:-390px;} #a6a2a2; */
+.text-footer {
+     text-align: center;
+     padding: 3px 0 ;
+      display: flex;
+      justify-content: center; 
+      background-color:rgb(38,53,72);
+      margin-top:-60px;
+      border-radius:20px;
+       border:3px solid white;
+      color:white;
+   }
+/* Next & previous buttons */
+.prev, .next {
+
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top:300px;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.dott{
+  cursor: pointer;
+  height: 5px;
+  width: 5px;
+  margin: 0 2px;
+  margin-top:-270px;
+  background-color:transparent;
+  border-radius: 15px;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dott:hover {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+} 
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+#k1{max-width:1000px;position:relative;margin:auto;background-image:linear-gradient(to bottom,black,darkgrey);height:auto;margin-top:-15px;}
+.mySlides{display:none;}
+//#k2:hover{transform:scale(3.5px);box-shadow:0 0 30px white;} 
+.content{background-color:#b2beb5;height:400px; width:600px;border-radius:25px;color:black;} 
+//td:hover{background-color:black;}
+table,td{text-align:center; font-family:georgia;font-size:18px;border-radius:15px;}
+h3{font-size:25px;font-style:italic; color:white;}  
+#t1{font-size:20px;font-style:italic; color:white;width:14%;margin-left:-385px;border:3px solid white;} 
+th{font-weight:bold; font-size:21px;}
+table,tr,td,th{border: 1px solid black; border-collapse:collapse; padding: 5px;}div{border-radius:10px;}img{border-radius:10px;border:1px solid white;}#li15{margin-top:-35px;}.topnav {overflow: hidden; background-color:rgb(38,53,72);margin-right:-8px;margin-left:-8px;margin-top:-25px;height: 40px;}a.split {float:left; color: white;margin-left:500px;}.logout56 {transform:scale(1.10); height: 35px; width: 35px; position: relative; top: -12px;}.d1{display:flex;gap:330px;background-color:rgb(32,33,36);height:50px;}.d2{background-image:linear-gradient(to right,brown,white);}ul{
+    list-style-type:none;
+    top:0;left:0;right:0;height:25px;display:flex;align-items:center;
+}#div25i,#div25ii,#div25iii,#div25iv,#div25v{display:flex;gap:0px;}.topnav{border-radius:0px;}font{color:white;}#div59{gap:25px}#div25{display:flex;gap:25px}ul*{display:inline;}ul li a{color:black;text-decoration:none;}li{padding:25px;}ul li a:hover img{transform:scale(1.15);box-shadow:0 0 10px rgba(0,0,0,0.5);}.div11A{display:none;}.slide{animation-name:slide;animation:1.5s;}#imgx{width:99%;height:95.4%; margin-left:5px;margin-top:-27px; vertical-align:middle;}@keyframes slide{from {opacity:.4} to {opacity: 1}}

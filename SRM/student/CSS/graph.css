@@ -1,0 +1,45 @@
+#im
+{ border:none;
+    height:200px;
+    width:50px;
+    margin-right:-120px;
+}
+#imm{
+    border:none;
+    height:230px;
+    width:50px;
+    transform: rotate(90deg);
+    margin-top:-100px;
+
+}
+#divy{
+    background-image:linear-gradient(to right,black,darkgrey);height:auto;margin-top:3px;border:3px solid white;
+} 
+#dive{
+    border-radius:0px;margin-top:-40px; margin-left: 15px;background-image:linear-gradient(to right,black,darkgrey);
+    color:white;
+}
+tr{color:white;font-size:18px;}
+/* #div11
+{
+    background-color:white;height:62.8%;margin-top:20px;
+} */
+       .text-footer{
+     color:white;
+     border-radius:20px;
+   border:3px solid white;
+     text-align: center;
+     padding: 3px 0 ;
+      display: flex;
+      font-size:15px;
+      justify-content: center; 
+      background-color:rgb(38,53,72);
+      margin-top:-60px;
+      height:150px;
+   }.split1{text-decoration:none;color:white;}
+#graph{bottom:-69px; margin-left:470px; zoom:1.0;}/*-30px*/
+td {width: 40px; font-family: consolas; border: 1px solid transparent;}/*text-align: center;*/
+table {  border-collapse: collapse;}div{border-radius:10px;}img{border-radius:10px;border:1px solid white;}#li15{left-width:15px;margin-top:-35px;}.topnav {overflow: hidden; background-color:rgb(38,53,72);margin-right:-8px;margin-left:-8px;margin-top:-25px;height: 40px;}a.split {float:left; color: white;margin-left:500px;}.logout56 {transform:scale(1.10); height: 35px; width: 35px; position: relative; top: -12px;}.d1{display:flex;gap:330px;background-color:rgb(32,33,36);height:50px;}.d2{background-image:linear-gradient(to right,brown,white);}ul{
+    list-style-type:none;
+    top:0;left:0;right:0;height:25px;display:flex;align-items:center;
+}#div25i,#div25ii,#div25iii,#div25iv,#div25v{display:flex;gap:0px;}.topnav{border-radius:0px;}font{color:white;}#div59{gap:25px}#div25{display:flex;gap:25px}ul*{display:inline;}ul .Anu a{color:black;text-decoration:none;}.Anu{padding:25px;}#dd1{}ul .Anu a:hover img{transform:scale(1.15);box-shadow:0 0 10px rgba(0,0,0,0.5);}.div11A{display:none;}.slide{animation-name:slide;animation:1.5s;}#imgx{width:99%;height:95.4%; margin-left:5px;margin-top:-27px; vertical-align:middle;}@keyframes slide{from {opacity:.4} to {opacity: 1}}
